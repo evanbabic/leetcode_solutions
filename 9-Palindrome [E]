@@ -1,6 +1,6 @@
 # Given an integer x, return true if x is a palindrome, and false otherwise.
 
-# Simple Solution
+# Simple Solution - uses string slicing ::-1 to reverse the string, then compare.
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
@@ -11,5 +11,4 @@ class Solution:
 Test = Solution()
 print(Test.isPalindrome(100001))
 
-# More Advanced Solution (?)
 
